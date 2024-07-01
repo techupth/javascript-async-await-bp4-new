@@ -16,4 +16,5 @@ let getJohnProfile = () => {
 function fail(data){
   return console.log(data);
 }
+
 getJohnProfile().catch(fail);

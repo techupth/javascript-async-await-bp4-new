@@ -33,3 +33,7 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function sucess(data){
+  return console.log(data);
+}
+getJohnProfile().then(sucess).then(getJohnOrders).then(sucess);
